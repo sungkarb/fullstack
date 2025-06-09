@@ -28,5 +28,5 @@ sequenceDiagram
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/favicon.ico
     activate server
     server->>browser: RESOURCE IS NOT FOUND
-    deactivate browser
+    deactivate server
 ```
