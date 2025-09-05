@@ -1,0 +1,25 @@
+:root {
+    --grey: #d3d3d3;
+    --dark-green: #027d00;
+    --dark-red: #ff0000;
+}
+
+.status-box {
+    display: flex;
+    place-items: center;
+    width: 100%;
+    height: 32px;
+    padding: 10px;
+}
+
+.success-box {
+    background-color: var(--grey);
+    color: var(--dark-green);
+    border: 4px solid var(--dark-green);
+}
+
+.fail-box {
+    background-color: var(--grey);
+    color: var(--dark-red);
+    border: 4px solid var(--dark-red);
+}
